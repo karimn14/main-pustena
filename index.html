@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pustena - Pusat Teknologi Tepat Guna</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Pustena</h1>
+            <p>Innovating for the Future</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Pusat Teknologi Tepat Guna</h2>
+        <p>Membawa Inovasi Teknologi untuk Dampak Global</p>
+        <button class="cta-button" onclick="scrollToSection('about')">Learn More</button>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>Pustena merupakan unit di bawah Yayasan Masjid yang berfokus pada inovasi teknologi tepat guna. Kami mengembangkan produk teknologi, riset, dan IoT untuk menghadirkan solusi inovatif yang berdampak positif bagi masyarakat.</p>
+        <p>Misi kami adalah menjadi pelopor teknologi yang bermanfaat dan mudah diterapkan di kehidupan sehari-hari.</p>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Our Projects</h2>
+        <div class="project-container">
+            <div class="project">
+                <img src="assets/img/tech_product.jpg" alt="Product Development">
+                <h3>Product Development</h3>
+                <p>Menciptakan produk inovatif berbasis teknologi yang berfokus pada solusi masalah sehari-hari.</p>
+            </div>
+            <div class="project">
+                <img src="assets/img/iot.jpg" alt="IoT Development">
+                <h3>IoT & Smart Technology</h3>
+                <p>Mengembangkan teknologi IoT untuk memudahkan masyarakat dalam menjalani kehidupan yang lebih efisien.</p>
+            </div>
+            <div class="project">
+                <img src="assets/img/research.jpg" alt="Research">
+                <h3>Research & Development</h3>
+                <p>Riset mendalam untuk mengembangkan teknologi yang tepat guna dan mudah diterapkan.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section">
+        <h2>Gallery</h2>
+        <div class="gallery-container">
+            <img src="assets/img/activity1.jpg" alt="Activity 1">
+            <img src="assets/img/activity2.jpg" alt="Activity 2">
+            <img src="assets/img/activity3.jpg" alt="Activity 3">
+        </div>
+        <button class="gallery-button" onclick="scrollGallery()">Scroll Gallery</button>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Reach out to us to learn more about our work and how to get involved.</p>
+        <form action="submit.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pustena - Pusat Teknologi Tepat Guna</p>
+    </footer>
+</body>
+</html>
